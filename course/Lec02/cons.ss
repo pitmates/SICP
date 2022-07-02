@@ -1,3 +1,14 @@
+(define (+vect v1 v2)
+  (make-vector
+   (+ (xcor v1) (xcor v2))
+   (+ (ycor v1) (ycor v2))))
+
+
+(define (scale s v)
+  (make-vector
+   (* s (xcor v))
+   (* s (ycor v))))
+
 (define (make-vector x y) (cons x y))
 (define (xcor p) (car p))
 (define (ycor p) (cdr p))
