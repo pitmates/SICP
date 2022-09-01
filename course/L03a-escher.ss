@@ -1,4 +1,4 @@
-(load "../Lec02/cons.ss")
+(load "./L03-cons.ss")
 ;(load "../Lec02/list.ss")
 
 (define (coord-map rect)
@@ -19,23 +19,6 @@
         ((coord-map rect) (seg-end s))))
      seglist)))
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 (exit)
